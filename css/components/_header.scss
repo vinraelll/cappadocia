@@ -5,10 +5,6 @@
     background-size: cover;
     background-position: bottom center;
 
-    &__title-block {
-        position: relative;
-    }
-
     &__title {
         font-family: 'balqis';
         font-weight: normal;
@@ -18,16 +14,15 @@
         line-height: 334px;
     }
 
-    &__desc {
-        font-family: 'RobotoCondensed-Light';
-        position: absolute;
-        right: 100px;
-        top: 415px;
-        font-style: italic;
-        font-weight: normal;
+    &__title span {
+        display: block;
         text-align: right;
+        font-family: 'RobotoCondensed-LightItalic';
+        font-weight: normal;
         font-size: 56px;
         line-height: 66px;
+        margin-top: -66px;
+        margin-right: 85px;
     }
 }
 

@@ -65,10 +65,6 @@ a {
   background-position: bottom center;
 }
 
-.header__title-block {
-  position: relative;
-}
-
 .header__title {
   font-family: 'balqis';
   font-weight: normal;
@@ -78,16 +74,15 @@ a {
   line-height: 334px;
 }
 
-.header__desc {
-  font-family: 'RobotoCondensed-Light';
-  position: absolute;
-  right: 100px;
-  top: 415px;
-  font-style: italic;
-  font-weight: normal;
+.header__title span {
+  display: block;
   text-align: right;
+  font-family: 'RobotoCondensed-LightItalic';
+  font-weight: normal;
   font-size: 56px;
   line-height: 66px;
+  margin-top: -66px;
+  margin-right: 85px;
 }
 
 .header-top {
