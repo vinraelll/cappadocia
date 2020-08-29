@@ -1,0 +1,71 @@
+.header {
+    min-height: 100vh;
+    background-image: url(/images/header-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+
+    &__title-block {
+        position: relative;
+    }
+
+    &__title {
+        font-family: 'balqis';
+        font-weight: normal;
+        text-align: center;
+        padding-top: 152px;
+        font-size: 250px;
+        line-height: 334px;
+    }
+
+    &__desc {
+        font-family: 'RobotoCondensed-Light';
+        position: absolute;
+        right: 100px;
+        top: 415px;
+        font-style: italic;
+        font-weight: normal;
+        text-align: right;
+        font-size: 56px;
+        line-height: 66px;
+    }
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    font-size: 24px;
+    line-height: 28px;  
+
+    &__menu {
+        display: flex;
+    }
+
+    &__menu-item + .header-top__menu-item {
+        margin-left: 52px;    
+    }
+
+    &__menu-link {
+        color: #000;    
+    }
+
+    &__menu-link:hover {
+        text-decoration: underline;   
+    }
+
+    &__phone {
+        color: #000;
+        padding-left: 40px;
+        position: relative;
+        
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            background-image: url(/images/header-phone.svg);
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

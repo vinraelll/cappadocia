@@ -9,7 +9,6 @@
 @font-face {
   src: url(../fonts/RobotoCondensed-Light.woff2) format("woff2"), url(../fonts/RobotoCondensed-Light.woff) format("woff");
   font-family: 'RobotoCondensed-Light';
-  font-family: 'balqis';
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -18,7 +17,6 @@
 @font-face {
   src: url(../fonts/RobotoCondensed-LightItalic.woff2) format("woff2"), url(../fonts/RobotoCondensed-LightItalic.woff) format("woff");
   font-family: 'RobotoCondensed-LightItalic';
-  font-family: 'balqis';
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -27,9 +25,113 @@
 @font-face {
   src: url(../fonts/RobotoCondensed-Regular.woff2) format("woff2"), url(../fonts/RobotoCondensed-Regular.woff) format("woff");
   font-family: 'RobotoCondensed-Regular';
-  font-family: 'balqis';
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'RobotoCondensed-Regular';
+  font-size: 18px;
+  line-height: 21px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  min-height: 100vh;
+  background-image: url(/images/header-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.header__title-block {
+  position: relative;
+}
+
+.header__title {
+  font-family: 'balqis';
+  font-weight: normal;
+  text-align: center;
+  padding-top: 152px;
+  font-size: 250px;
+  line-height: 334px;
+}
+
+.header__desc {
+  font-family: 'RobotoCondensed-Light';
+  position: absolute;
+  right: 100px;
+  top: 415px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: right;
+  font-size: 56px;
+  line-height: 66px;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 72px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header-top__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-top__menu-item + .header-top__menu-item {
+  margin-left: 52px;
+}
+
+.header-top__menu-link {
+  color: #000;
+}
+
+.header-top__menu-link:hover {
+  text-decoration: underline;
+}
+
+.header-top__phone {
+  color: #000;
+  padding-left: 40px;
+  position: relative;
+}
+
+.header-top__phone:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-image: url(/images/header-phone.svg);
+  width: 30px;
+  height: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
