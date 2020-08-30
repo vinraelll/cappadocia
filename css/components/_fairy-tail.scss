@@ -1,0 +1,39 @@
+.fairy-tail__title {
+    padding-bottom: 100px;
+}
+
+.fairy-tail__title span{
+    display: block;
+    text-align: left;
+    margin-top: -30px;
+    margin-left: 180px;
+    font-family: 'RobotoCondensed-LightItalic';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.fairy-tail__slider {
+    width: 50%;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}

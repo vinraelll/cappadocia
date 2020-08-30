@@ -6,6 +6,12 @@ html {
     box-sizing: inherit;
 }
 
+:root {
+    // colors
+    --gold: #E2AB3F;
+
+}
+
 body {
     font-family: 'RobotoCondensed-Regular';
     font-size: 18px;
@@ -21,4 +27,16 @@ a {
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.page-section {
+    margin: 200px 0;
+}
+
+.title {
+    font-family: Balqis;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 128px;
+    color: var(--gold);
 }
