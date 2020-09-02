@@ -37,3 +37,36 @@
 .slick-next {
     right: 0;
 }
+
+.fairy-tail {
+
+&__inner {
+    display: flex;
+}
+
+&__container {
+    max-width: 1230px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px 0 55px;
+}
+
+&__body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+&__list {
+    list-style: none;
+}
+
+&__content-title {
+    font-weight: bold;
+}
+
+&__text {
+    padding: 10px 0;
+}
+}

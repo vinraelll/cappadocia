@@ -30,7 +30,8 @@ a {
 }
 
 .page-section {
-    margin: 200px 0;
+    margin: 100px auto;
+    max-width: 1920px;
 }
 
 .title {
@@ -40,3 +41,17 @@ a {
     line-height: 128px;
     color: var(--gold);
 }
+
+.title span {
+    display: block;
+    margin-left: 240px;
+    margin-top: -24px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'RobotoCondensed-LightItalic';
+    font-style: italic;
+    font-weight: 300;
+}
+
+

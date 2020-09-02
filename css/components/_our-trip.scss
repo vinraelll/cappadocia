@@ -1,0 +1,52 @@
+.our-trip__inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    margin: 0px auto;
+}
+
+.our-trip__slider {
+    width: 50%;
+
+}
+
+.our-trip__title span {
+    display: block;
+    margin-left: 240px;
+    margin-top: -24px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'RobotoCondensed-LightItalic';
+    font-style: italic;
+    font-weight: 300;
+}
+.our-trip__body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 360px;
+}
+.our-trip__list {
+    list-style-type: none;
+}
+
+.our-trip__item {
+    margin: 5px 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.our-trip__list li:first-child {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.our-trip__link {
+    padding: 11px 53px;
+    border: 1px solid #E2AB3F;
+    align-self: flex-start;
+    color: inherit;
+}
