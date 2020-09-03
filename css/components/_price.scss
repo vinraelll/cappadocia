@@ -1,0 +1,32 @@
+.price__title {
+    margin-bottom: 130px;
+}
+
+.price__title span{
+    margin-left: 120px
+}
+
+.price__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price__list {
+    list-style-type: none;
+    max-width: 530px;
+    flex-grow: 1;
+}
+
+.price__list + .price__list {
+    margin-left: 50px;
+}
+
+.price__list li:first-child {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.price__item {
+    margin-bottom: 20px;
+}
+

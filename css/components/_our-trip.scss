@@ -7,9 +7,11 @@
 
 .our-trip__slider {
     width: 50%;
-
 }
 
+.our-trip__container {
+    margin: 0px auto;
+}
 .our-trip__title span {
     display: block;
     margin-left: 240px;
@@ -26,7 +28,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 360px;
+    padding: 0 15px
 }
 .our-trip__list {
     list-style-type: none;

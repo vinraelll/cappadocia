@@ -49,6 +49,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   list-style-type: none;
+  background: #E5E5E5;
 }
 
 a {
@@ -253,6 +254,10 @@ a {
   width: 50%;
 }
 
+.our-trip__container {
+  margin: 0px auto;
+}
+
 .our-trip__title span {
   display: block;
   margin-left: 240px;
@@ -277,7 +282,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 360px;
+  padding: 0 15px;
 }
 
 .our-trip__list {
@@ -350,5 +355,43 @@ a {
 
 .hotel__gallery a {
   margin-top: 50px;
+}
+
+.price__title {
+  margin-bottom: 130px;
+}
+
+.price__title span {
+  margin-left: 120px;
+}
+
+.price__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price__list {
+  list-style-type: none;
+  max-width: 530px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.price__list + .price__list {
+  margin-left: 50px;
+}
+
+.price__list li:first-child {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.price__item {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
