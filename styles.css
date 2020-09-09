@@ -49,7 +49,6 @@ body {
   font-size: 18px;
   line-height: 21px;
   list-style-type: none;
-  background: #E5E5E5;
 }
 
 a {
@@ -357,6 +356,12 @@ a {
   margin-top: 50px;
 }
 
+.price {
+  background-image: url(/images/price-img.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
 .price__title {
   margin-bottom: 130px;
 }
@@ -393,5 +398,185 @@ a {
 
 .price__item {
   margin-bottom: 20px;
+}
+
+.contacts__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 70px;
+  margin: 0px auto;
+}
+
+.contacts__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__img {
+  max-width: 50%;
+}
+
+.contacts__date, .contacts__price {
+  position: relative;
+  line-height: 69px;
+  font-size: 96px;
+  color: #E2AB3F;
+  font-family: 'balqis';
+  font-weight: 300;
+  font-style: normal;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 50px;
+}
+
+.contacts__date span, .contacts__price span {
+  position: absolute;
+  display: block;
+  font-family: Roboto Condensed;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+}
+
+.contacts__price span {
+  top: 70px;
+  right: -100px;
+}
+
+.contacts__date span {
+  top: 70px;
+  right: -35px;
+}
+
+.contacts__form-label {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.contacts__form-input {
+  border: 1px solid #E2AB3F;
+  width: 383px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.contacts__form-btn {
+  font-family: 'RobotoCondensed-Light';
+  border: 1px solid #E2AB3F;
+  background: #FFFFFF;
+  text-transform: uppercase;
+  padding: 12px 45px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  font-size: 24px;
+}
+
+.footer {
+  background-image: url(/images/footer-img.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  padding-top: 100px;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__contacts {
+  width: 356px;
+  height: 527px;
+  background-image: url(/images/footer-contacts-bg.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.footer__text {
+  font-family: 'Balqis';
+  font-size: 86px;
+  line-height: 115px;
+  color: #000000;
+}
+
+.footer__title {
+  font-family: 'Balqis';
+  font-size: 86px;
+  line-height: 115px;
+  color: #E2AB3F;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.footer__tel, .footer__email {
+  position: relative;
+  padding-left: 40px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+
+.footer__tel {
+  font-size: 18px;
+}
+
+.footer__tel:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-image: url(/images/footer-phone.svg);
+  width: 30px;
+  height: 30px;
+}
+
+.footer__email:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-image: url(/images/footer-mail.svg);
+  width: 30px;
+  height: 30px;
 }
 /*# sourceMappingURL=styles.css.map */

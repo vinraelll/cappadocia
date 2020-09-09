@@ -1,0 +1,72 @@
+.footer {
+    background-image: url(/images/footer-img.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding-top: 100px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__contacts {
+    width: 356px;
+    height: 527px;
+    background-image: url(/images/footer-contacts-bg.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.footer__text {
+    font-family: 'Balqis';
+    font-size: 86px;
+    line-height: 115px;
+    color: #000000;
+}
+
+.footer__title {
+    font-family: 'Balqis';
+    font-size: 86px;
+    line-height: 115px;
+    color: #E2AB3F;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.footer__tel, .footer__email {
+    position: relative;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+.footer__tel {
+    font-size: 18px;
+}
+
+.footer__tel:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background-image: url(/images/footer-phone.svg);
+    width: 30px;
+    height: 30px;  
+}
+
+.footer__email:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background-image: url(/images/footer-mail.svg);
+    width: 30px;
+    height: 30px;  
+}
+
+
