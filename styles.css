@@ -502,6 +502,7 @@ a {
   line-height: 28px;
   color: #000000;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .footer {
@@ -510,7 +511,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  padding-top: 100px;
+  padding-top: 55px;
 }
 
 .footer__inner {
@@ -545,11 +546,12 @@ a {
   font-size: 86px;
   line-height: 115px;
   color: #E2AB3F;
-  margin-top: 70px;
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .footer__tel, .footer__email {
+  display: inline-block;
   position: relative;
   padding-left: 40px;
   font-size: 18px;
@@ -560,6 +562,7 @@ a {
 
 .footer__tel {
   font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .footer__tel:before {
@@ -569,6 +572,7 @@ a {
   background-image: url(/images/footer-phone.svg);
   width: 30px;
   height: 30px;
+  top: -5px;
 }
 
 .footer__email:before {
@@ -578,5 +582,14 @@ a {
   background-image: url(/images/footer-mail.svg);
   width: 30px;
   height: 30px;
+  top: -5px;
+}
+
+.footer__social {
+  margin-top: 38px;
+}
+
+.footer__social-link + .footer__social-link {
+  margin-left: 15px;
 }
 /*# sourceMappingURL=styles.css.map */
