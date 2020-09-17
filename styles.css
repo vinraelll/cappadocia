@@ -103,6 +103,48 @@ a {
   line-height: 334px;
 }
 
+@media (max-width: 1200px) {
+  .header__title {
+    font-size: 200px;
+    line-height: 280px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header__title {
+    font-size: 150px;
+    line-height: 220px;
+  }
+}
+
+@media (max-width: 820px) {
+  .header__title {
+    font-size: 120px;
+    line-height: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__title {
+    font-size: 90px;
+    line-height: 170px;
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__title {
+    font-size: 70px;
+    line-height: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__title {
+    padding-top: 60px;
+  }
+}
+
 .header__title span {
   display: block;
   text-align: right;
@@ -112,6 +154,53 @@ a {
   line-height: 66px;
   margin-top: -66px;
   margin-right: 85px;
+}
+
+@media (max-width: 1200px) {
+  .header__title span {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header__title span {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__title span {
+    margin-right: 55px;
+    font-size: 20px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 525px) {
+  .header__title span {
+    margin-right: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header__title span {
+    font-size: 16px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__title span {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .header__title span {
+    margin-right: 5px;
+  }
 }
 
 .header-top {
@@ -124,6 +213,39 @@ a {
   padding-top: 72px;
   font-size: 24px;
   line-height: 28px;
+}
+
+@media (max-width: 1000px) {
+  .header-top {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-top {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-top {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-top {
+    font-size: 14px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .header-top__menu {
@@ -150,6 +272,24 @@ a {
   position: relative;
 }
 
+@media (max-width: 700px) {
+  .header-top__phone {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-top__phone {
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 419px) {
+  .header-top__phone {
+    margin-top: 15px;
+  }
+}
+
 .header-top__phone:before {
   content: "";
   position: absolute;
@@ -157,6 +297,14 @@ a {
   background-image: url(/images/header-phone.svg);
   width: 30px;
   height: 30px;
+}
+
+@media (max-width: 700px) {
+  .header-top__phone:before {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+  }
 }
 
 .fairy-tail__title {
